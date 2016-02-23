@@ -1,0 +1,51 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+xmlns:gap   = "http://phonegap.com/ns/1.0"
+id      = "com.phonegap.getting.started"
+version     = "1.0.0">
+
+<name>bla</name>
+
+<description>
+    bla
+</description>
+
+<author href="http://bla.github.com"
+    email="bla@gmail.com">
+    bla
+</author>
+
+<icon src="icon.png" gap:role="default" />
+
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/camera"/>
+  <feature name="http://api.phonegap.com/1.0/media"/>
+  <feature name="http://api.phonegap.com/1.0/device"/>
+
+  <feature name="http://api.phonegap.com/1.0/notification"/>
+  <feature name="http://api.phonegap.com/1.0/battery"/>
+
+<preference name="orientation" value="portrait" />
+<preference name="webviewbounce" value="false" />
+<preference name="prerendered-icon" value="true" />
+  <preference name="phonegap-version" value="2.0.0" />
+
+  <preference name="fullscreen" value="false" />
+  <preference name="stay-in-webview" value="false" />
+  <preference name="ios-statusbarstyle" value="default" />
+  <preference name="android-minSdkVersion" value="7" />
+  <preference name="android-installLocation" value="internalOnly" />
+  <preference name="target-device" value="universal" />
+  <preference name="autohide-splashscreen" value="true" />
+  <preference name="load-url-timeout" value="60000" />
+  <preference name="show-splashscreen-spinner" value="true" />
+  <preference name="show-splash-screen-spinner" value="true" />
+  <preference name="allow-inline-media-playback" value="false" />
+  <preference name="launch-mode" value="standard" />
+
+
+  <plugin name="Capture" value="CDVCapture" />
+  <plugin name="Camera" value="CDVCamera" />
+</widget>
